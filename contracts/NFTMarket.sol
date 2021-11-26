@@ -108,7 +108,7 @@ contract NFTMarket is ReentrancyGuard {
     //Transfering the commission to the implementer of the contract
     }
 
-// Just Copied and Pasted, need to come back and make sense of this again  
+// functions to qurey data from chain
   function fetchMarketItems() public view returns (MarketItem[] memory){
     uint itemCount =_itemIds.current();
     uint unsoldItemCount = _itemIds.current() - _itemsSold.current();
