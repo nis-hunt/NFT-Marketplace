@@ -41,7 +41,7 @@ describe("NFTMarket", function() {
         price: i.price.toString(),
         tokenId: i.tokenId.toString(),
         seller: i.seller,
-        owner: i.owner,
+        owner: i.owner, 
         tokenUri
       }
       return item
